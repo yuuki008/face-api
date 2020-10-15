@@ -1,0 +1,55 @@
+.current{
+  display: flex;
+}
+
+.face{
+  display: flex;
+  flex: 0.6;
+  flex-direction: column;
+  text-align: center;
+}
+
+.image{
+  flex: 0.4;
+  position: relative;
+}
+
+img{
+  width: 40%;
+  position: fixed;
+  top: 25%;
+  border-radius: 20px;
+}
+
+.emotion__info{
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: decimal;
+  height: 7vh;
+}
+
+h3 > span{
+  padding-left: 10px;
+}
+
+.hairColor{
+  list-style-type: none;
+  display: column;
+}
+
+.emotion{
+  display: flex;
+  position: relative;
+}
+
+
+.emotion__pie{
+  flex-direction: column;
+  width: 100%;
+}
