@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiKey = "6d86fecf1d7d49f5b9b34e0c3ffb11d6"
+const apiKey = "API_KEY"
 const url = "https://yuuki.cognitiveservices.azure.com/face/v1.0/detect";
 var params = {
     "returnFaceId": "true",
